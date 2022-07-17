@@ -2,6 +2,6 @@ const express = require('express')
 const techapi = require('../Api/Technology');
 
 const tech = express.Router();
-tech.route("/tech").get(techapi.apiController)
+tech.route("/technology").get(techapi.apiController)
 
 module.exports = tech;
